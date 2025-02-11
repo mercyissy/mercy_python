@@ -5,7 +5,7 @@ import pwinput
 mycon =  sql.connect(
     host = '127.0.0.1',
     user = 'root', 
-    password = '',
+    password = 'Mirabel945',
     database = 'bankdata' 
 )
 
@@ -342,6 +342,7 @@ class Bankapp():
     
     input('\nPress Enter to return to dashboard...')
     self.dashboard2()  
+    
    def Delete(self):
     self.email = input('Email: ')
 
